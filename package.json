@@ -1,0 +1,26 @@
+{
+  "name": "tape-blanket",
+  "version": "0.0.0",
+  "description": "lcov data for tape tests using blanket.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mghayes/tape-blanket"
+  },
+  "author": "Michael Hayes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mghayes/tape-blanket/issues"
+  },
+  "homepage": "https://github.com/mghayes/tape-blanket",
+  "dependencies": {
+    "blanket": "^1.1.6",
+    "tape": "^2.5.0",
+    "glob": "^3.2.9",
+    "optimist": "^0.6.1",
+    "minimist": "0.0.8"
+  }
+}
